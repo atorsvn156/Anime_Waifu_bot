@@ -55,7 +55,7 @@ def waifu_query(query, user_id, user_name, server_name, channel_name):
     headers = {
     'content-type': "application/json",
     'x-rapidapi-host': "waifu.p.rapidapi.com",
-    'X-RapidAPI-Key': '029de3eee0mshf9b9b932c47c3e8p1d8e43jsnfcbd96edeb75'
+    'X-RapidAPI-Key': 'YOUR_RAPID_API_KEY'
     }
     
     response = requests.request("POST", url, data=payload, headers=headers, params=querystring)
